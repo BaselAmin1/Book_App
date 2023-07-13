@@ -1,3 +1,4 @@
+import 'package:book_app/core/route/route_path.dart';
 import 'package:flutter/material.dart';
 
 class CustomBookDetailsAppBar extends StatelessWidget {
@@ -9,7 +10,7 @@ class CustomBookDetailsAppBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         IconButton(
-          onPressed: () {},
+          onPressed: () =>Navigator.pushReplacementNamed(context, homeScreen),
           icon: const Icon(Icons.close),
         ),
         IconButton(

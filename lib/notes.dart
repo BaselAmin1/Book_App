@@ -1,2 +1,2 @@
-//! assets class 
+//! assets class
 //! style class

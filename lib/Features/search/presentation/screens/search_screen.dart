@@ -1,7 +1,6 @@
 import 'package:book_app/Features/search/presentation/widgets/search_screen_body.dart';
 import 'package:flutter/material.dart';
 
-
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
 

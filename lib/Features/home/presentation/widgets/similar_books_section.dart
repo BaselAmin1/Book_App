@@ -1,4 +1,3 @@
-
 import 'package:book_app/Features/home/presentation/widgets/similar_books_list_view.dart';
 import 'package:book_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';

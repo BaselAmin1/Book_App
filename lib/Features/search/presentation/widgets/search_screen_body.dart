@@ -1,4 +1,4 @@
-import 'package:book_app/Features/home/presentation/widgets/best_seller_list_view_item.dart';
+import 'package:book_app/Features/home/presentation/widgets/newest_books_list_view_item.dart';
 import 'package:book_app/core/utils/styles.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -46,7 +46,8 @@ class SearchResultListView extends StatelessWidget {
       itemBuilder: (context, index) {
         return const Padding(
           padding: EdgeInsets.symmetric(vertical: 10),
-          child: BookListViewItem(),
+         // child: BookListViewItem(),
+         child: Text('TODO'),
         );
       },
     );
